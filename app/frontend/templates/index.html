@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Колесо фортуны</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='wheel.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/telegram-web-app@1.0.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/winwheel@2.7.0/Winwheel.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <button id="spin-btn" disabled>Вращать</button>
+    <div id="timer"></div>
+  </div>
+  <script src="{{ url_for('static', filename='wheel.js') }}"></script>
+</body>
+</html>

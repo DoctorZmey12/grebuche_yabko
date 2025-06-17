@@ -1,0 +1,43 @@
+# ——————————————
+# Python
+# ——————————————
+__pycache__/
+*.py[cod]
+*.py
+*.egg-info/
+env/
+bot/
+app/backend/
+config/
+data/
+json_dump/
+sheduler_module/
+.venv/
+
+# ——————————————
+# Node / frontend
+# ——————————————
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# ——————————————
+# Общие файлы ОС / IDE
+# ——————————————
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ——————————————
+# Логи и временные файлы
+# ——————————————
+*.log
+*.tmp
+*.cache
+
+# Если нужно «отменить» игнорирование какого-то файла:
+!important-config.yml
+
+
